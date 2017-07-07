@@ -1,8 +1,8 @@
-let answer = document.getElementById('answer');
-let attempt = document.getElementById('attempt');
+var answer = document.getElementById('answer');
+var attempt = document.getElementById('attempt');
 
 function guess() {
-    let input = document.getElementById('user-guess');
+    var input = document.getElementById('user-guess');
     //add functionality to guess function here
     if(answer.text == '' && attempt.text == ''){
         setHiddenFields();
