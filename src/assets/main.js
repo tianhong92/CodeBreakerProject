@@ -11,7 +11,7 @@ function guess() {
     if(validateInput(!input.value)){
         return false;
     } else {
-        attempt++;
+        attempt.value += 1;
     }
 }
 
@@ -23,7 +23,7 @@ function setHiddenFields() {
       newValue = '0' + newValue;
     }
     answer.value = newValue;
-    attempt = 0;
+    attempt.value = 0;
 }
 //
 // function setMessage(message) {
