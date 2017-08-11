@@ -25,11 +25,10 @@ function setHiddenFields() {
     answer.value = newValue;
     attempt.value = 0;
 }
-//
-// function setMessage(message) {
-//     document.getElementById('message').innerHTML = message;
-//
-// }
+
+function setMessage(message) {
+    document.getElementById('message').innerHTML = message;
+}
 //
 // function validateInput(input) {
 //     if(input.length == 4){
