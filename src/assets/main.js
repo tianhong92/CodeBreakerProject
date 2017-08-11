@@ -8,11 +8,11 @@ function guess() {
         setHiddenFields();
     }
 
-    // if(validateInput(!input.value)){
-    //     return false;
-    // } else {
-    //     attempt.value += 1;
-    // }
+    if(validateInput(!input.value)){
+        return false;
+    } else {
+        attempt.value += 1;
+    }
 }
 
 //implement new functions here
